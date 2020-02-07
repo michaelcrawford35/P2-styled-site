@@ -33,3 +33,7 @@ body{
     background: #ddd;
     color: black;
     }
+
+    aside{
+      align-content: right;
+    }
