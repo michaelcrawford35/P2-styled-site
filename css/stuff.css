@@ -21,7 +21,6 @@ body{
     }
 
   .navbar a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -34,6 +33,28 @@ body{
     color: black;
     }
 
+    article{
+      float: left;
+      width: 70%;
+    }
+
     aside{
-      align-content: right;
+      float:left;
+      width:30%;
+    } 
+
+    footer {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+    #chiefs{
+      color:red;
+    }
+
+    #sf{
+      color: gold;
     }
